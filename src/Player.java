@@ -1,23 +1,18 @@
-
+import java.util.*;
 public class Player {
 	String name;
 	int winCount;
 	int lossCount;
 	int rank;
-	Class Player
 
-	String name;
-	int winCount;
-	int lossCount
-	int rank;
-
-	Player(scanner sc){
-	if has nextString{
-		name = sc.nextString
+	Player(Scanner sc){
+	if (sc.hasNext()){
+		name = sc.next();
 	}
-	if has nextInt{
-		rank = sc.nextInt;
+	if (sc.hasNext()){
+		rank = sc.nextInt();
 	}	
+	
 	}
 	int getRank(){
 		return rank;
@@ -30,12 +25,12 @@ public class Player {
 	}
 
 	void setwinCount(int winCount){
-		winCount = winCount;
+		this.winCount = winCount;
 	}
 
 	void setlossCount
 	(int lossCount){
-		lossCount = lossCount;
+		this.lossCount = lossCount;
 
 	}
 
@@ -50,7 +45,7 @@ public class Player {
 	void resetwinCountlossCount
 	(){
 		winCount = 0;
-		lossCount  = 0
+		lossCount  = 0;
 	}
 	String getName(){
 		return name;
