@@ -7,7 +7,7 @@ GUI Class:
 
 Game Class: J. Zach
 
-Team Class: 
+Team Class: -> Nixed 
 
 Player Class: 
 
