@@ -6,5 +6,7 @@
  * Purpose:			This class will hold the testing materials and code to ensure the program works.
  */
 public class Tester {
+  
+  Hello World
 
 }
