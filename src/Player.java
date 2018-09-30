@@ -1,9 +1,9 @@
 /*
  * File Name:		Player.java
- * Class:			CMSC 495-6380
- * Group:			Group 6
- * Authors:			Will Krohn, Stephen
- * Date: 			9/29/2018
+ * Class:		CMSC 495-6380
+ * Group:		Group 6
+ * Authors:		Will Krohn, Stephen
+ * Date: 		9/29/2018
  * Purpose: 		This document is responsible for the Player java class for group 6's project to predict wins
  */
 import java.util.*;
