@@ -9,6 +9,6 @@ Game Class: J. Zach
 
 Team Class: -> Nixed 
 
-Player Class: 
+Player Class: -> Will, Stephen
 
 Tester Class: J. Zach
