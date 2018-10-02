@@ -1,0 +1,14 @@
+> File Name:		TestData.txt
+> Class:			CMSC 495-6380
+> Group:			Group 6
+> Authors:			J. Zach
+> Date:				10/2/2018
+> Purpose:			This file serves as one of the testing files for the data
+>					input portion of the project.
+GameType,Tennis
+NumberOfTeams,4
+GamesPerSeason,16
+Player,Sephen,50
+Player,Zach,50
+Player,Sheldon,50
+Player,Will,50
