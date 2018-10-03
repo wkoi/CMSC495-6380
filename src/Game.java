@@ -8,7 +8,11 @@
  * 					It is also responsible for performing the operations to calculate victories and rankings for the games.
  */
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Game {
@@ -36,6 +40,51 @@ public class Game {
 		gameFile = newGameFile;
 		gameName = newGameName;
 		gamesInASeason = newGamesInASeason;
+	}
+	
+	/*
+	 * This method parses through a given file to extract data for the 
+	 * program or rejecting faulty files
+	 * 
+	 * @param	File newFile - File to be read into the program
+	 */
+	public void parseFile(File newFile){
+		
+		try(BufferedReader br = new BufferedReader(new FileReader(newFile))){
+			
+			//Pending a legit file, these variables will be transfered to the global variables
+			String tempGameType;
+			int tempNumberOfTeams, tempGamesPerSeason;
+			ArrayList<Player> tempPlayerList = new ArrayList<Player>();
+			
+			//Serve as checks to see if the information was already gathered, one perfile otherwise
+			//the file is
+			boolean gameTypeReceived, gamesPerSeasonReceived, NumberOfTeamsReceived;
+			
+			String line = null;								//line to parse from file
+			
+			while((line = br.readLine()) != null){
+				
+				String tokens[] = line.split(",");
+				
+				//System.out.println(line);					//Testing print system
+				if(tokens[0].charAt(0) == '>'){
+					continue;
+				}//Just a comment, do nothing, move on
+				else if(tokens[0].equalsIgnoreCase("GameType")){
+					
+				}//Game Type Line
+				
+			}
+			
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
 	}
 	
 	/*

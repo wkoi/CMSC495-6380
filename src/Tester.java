@@ -1,3 +1,5 @@
+import java.io.File;
+
 /*
  * File Name:		Tester.java
  * Class:			CMSC 495-6380
@@ -17,5 +19,7 @@ public class Tester {
 		run.addPlayerToGame(player2);
 		run.addPlayerToGame(player3);
 		run.addPlayerToGame(player4);
+		File testFile1 = new File("TestData.txt");
+		run.parseFile(testFile1);
 	}	
 }

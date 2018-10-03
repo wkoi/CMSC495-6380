@@ -19,6 +19,18 @@ public class Player {
 			//Here for later development for catching bad data
 		}
 	}
+	
+	/*
+	 * Constructor with test features
+	 * 
+	 * @param	newRank new rank (to be used for calculations)
+	 * @param	newName new name for the player
+	 */
+	Player(String newName, int newRank){
+		name = newName;
+		rank = newRank;
+	}
+	
 	//Gets Player Name
 	public String getName() {
 		return name;
