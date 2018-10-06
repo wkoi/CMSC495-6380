@@ -1,3 +1,21 @@
+/*
+ * File Name:   GUI.java
+ * Class:       CMSC 495-6380
+ * Group:       Group 6
+ * Authors:     Sheldon Jeffers and Stephen Parsons
+ * Purpose:     GUI.java creates and shows the GUI application that is displayed to the user. It stores the data 
+ *              from the players, provide textfields for user input and buttons that provide actions for the user. 
+ *              It also displays the players details, along with the results from simulated games weekly and seasonly.
+ * 
+ * Revision:
+ * Version Number(dates): 1.0(9/29/18) - Created the GUI design, added textfields,  -   Contributor: Sheldon Jeffers
+ *                                          buttons, display field.
+ * Version Number(dates): 1.1(10/06/18) - GUI functionality, Edit/Status buttons, action    -   Contributor: Sheldon Jeffers
+ *                                          listeners for buttons. Added comments.
+ * Version Number(dates): 1.1(10/06/18) - GUI functionality, Implemented file chooser,  -   Contributor: Stephen Parsons
+ *                                          Added comments.
+ */
+
 import javax.swing.*;
 import javax.swing.text.*;
 import java.awt.*;              
